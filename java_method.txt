@@ -1,0 +1,71 @@
+***배열***
+1. Arrays.toString(arr)
+	arr을 String 처럼 출력
+	[arr[0], arr[1], arr[2], ... ]
+
+2. String.toCharArray()
+	String을 char형 배열로 변환
+
+3. String.toUpperCase()
+	String을 대문자로 변환
+
+4. Arrays.sort(arr)
+	arr을 오름차순으로 정렬
+
+***String***
+1. string.charAt(index)
+	string의 index에 있는 문자를 출력
+
+2. string.toCharArray()
+	string을 char 타입의 배열로 변환
+
+3. string.indexOf()
+	string에서 입력한 문자의 index를 찾아서 출력
+	없으면 -1
+
+***Math***
+1. Math.random()
+	0 <= x < 10 사이 랜덤 생성
+	0 <= x < 10 랜덤 정수 만드려면 *10
+
+2. Math.cos()
+	안의 값은 radian
+
+3. Math.toRadians()
+	deg 넣으면 radian으로 변환
+
+***Buffer***
+1. BufferedReader
+	import java.io.BufferedReader;
+	import java.io.BufferedWriter;
+	import java.io.InputStreamReader;
+	import java.io.OutputStreamWriter;
+
+	BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+	String s = bf.readLine();
+	int i = Integer.parseInt(br.readLine());
+	예외처리 : throws IOException
+
+	StringTokenizer st = new StringTokenizer(s);
+	int a = Integer.parseInt(st.nextToken());
+	int b = Integer.parseInt(st.nextToken());
+
+2. BufferedWriter
+	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	String s = "abcdefg";
+	bw.write(s); // 버퍼에 있는 값 모두 출력
+	bw.flush(); // 남아있는 데이터를 모두 출력시킴
+	bw.close(); // 스트림을 닫음
+
+***EOF***
+1. Scanner
+	Scanner sc = new Scanner(System.in);
+	while(sc.hasNext()){
+		~~
+	}
+2. BufferedReader
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	String S = "";
+	while((S = br.readLine()) != null){
+		~~
+	}
