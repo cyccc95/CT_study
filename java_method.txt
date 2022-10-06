@@ -12,6 +12,8 @@
 4. Arrays.sort(arr)
 	arr을 오름차순으로 정렬
 
+5. Arrays.copyOf(원본 배열, 복사할 길이)
+
 ***String***
 1. string.charAt(index)
 	string의 index에 있는 문자를 출력
