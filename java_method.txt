@@ -3,16 +3,10 @@
 	arr을 String 처럼 출력
 	[arr[0], arr[1], arr[2], ... ]
 
-2. String.toCharArray()
-	String을 char형 배열로 변환
-
-3. String.toUpperCase()
-	String을 대문자로 변환
-
-4. Arrays.sort(arr)
+2. Arrays.sort(arr)
 	arr을 오름차순으로 정렬
 
-5. Arrays.copyOf(원본 배열, 복사할 길이)
+3. Arrays.copyOf(원본 배열, 복사할 길이)
 
 ***String***
 1. string.charAt(index)
@@ -20,10 +14,16 @@
 
 2. string.toCharArray()
 	string을 char 타입의 배열로 변환
+	
+3. String.toUpperCase()
+	String을 대문자로 변환
 
-3. string.indexOf()
+4. string.indexOf()
 	string에서 입력한 문자의 index를 찾아서 출력
 	없으면 -1
+
+5. string.split("", num)
+	string을 ""를 기준으로 잘라 num 크기의 배열로 변환
 
 ***Math***
 1. Math.random()
