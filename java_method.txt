@@ -25,6 +25,10 @@
 5. string.split("", num)
 	string을 ""를 기준으로 잘라 num 크기의 배열로 변환
 
+6. StringTokenizer st = new StringTokenizer(S, " ");
+	String S를 " "를 기준으로 나눠서 토큰에 저장
+	st.countTokens()
+
 ***Math***
 1. Math.random()
 	0 <= x < 10 사이 랜덤 생성
