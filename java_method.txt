@@ -29,6 +29,9 @@
 	String S를 " "를 기준으로 나눠서 토큰에 저장
 	st.countTokens()
 
+7. string.repeat(idx)
+	string을 idx 만큼 반복해서 출력
+
 ***Math***
 1. Math.random()
 	0 <= x < 10 사이 랜덤 생성
