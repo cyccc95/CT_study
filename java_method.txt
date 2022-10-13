@@ -8,6 +8,9 @@
 
 3. Arrays.copyOf(원본 배열, 복사할 길이)
 
+4. arr.clone()
+	arr 배열 복제
+
 ***String***
 1. string.charAt(index)
 	string의 index에 있는 문자를 출력
