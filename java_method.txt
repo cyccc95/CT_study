@@ -11,6 +11,9 @@
 4. arr.clone()
 	arr 배열 복제
 
+5. Arrays.binarySearch(arr, key)
+	arr에서 key인 요소를 이진 검색
+
 ***String***
 1. string.charAt(index)
 	string의 index에 있는 문자를 출력
@@ -34,6 +37,12 @@
 
 7. string.repeat(idx)
 	string을 idx 만큼 반복해서 출력
+
+8. string.contains(문자열)
+	string이 문자열을 포함하고 있는지를 boolean으로 반환
+
+9. string.replace(target, replacement)
+	string 내에서 target을 replacement로 바꿈
 
 ***Math***
 1. Math.random()
