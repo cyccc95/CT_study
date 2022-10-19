@@ -14,6 +14,9 @@
 5. Arrays.binarySearch(arr, key)
 	arr에서 key인 요소를 이진 검색
 
+6. Arrays.asList(arr)
+	arr을 list로 변환
+
 ***String***
 1. string.charAt(index)
 	string의 index에 있는 문자를 출력
@@ -44,6 +47,13 @@
 9. string.replace(target, replacement)
 	string 내에서 target을 replacement로 바꿈
 
+10. string.equals()
+	string을 비교할 때
+
+***List***
+1. list.toArray(arr)
+	list를 arr에 맞게 array로 변환
+
 ***Math***
 1. Math.random()
 	0 <= x < 10 사이 랜덤 생성
@@ -54,6 +64,9 @@
 
 3. Math.toRadians()
 	deg 넣으면 radian으로 변환
+
+4. Math.sqrt()
+	제곱근 리턴
 
 ***Buffer***
 1. BufferedReader
