@@ -17,6 +17,9 @@
 6. Arrays.asList(arr)
 	arr을 list로 변환
 
+7. Arrays.equals(arr1, arr2)
+	boolean으로 반환
+
 ***String***
 1. string.charAt(index)
 	string의 index에 있는 문자를 출력
