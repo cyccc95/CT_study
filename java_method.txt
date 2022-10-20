@@ -71,6 +71,9 @@
 4. Math.sqrt()
 	제곱근 리턴
 
+5. Math.abs()
+	절대값 리턴
+
 ***Buffer***
 1. BufferedReader
 	import java.io.BufferedReader;
