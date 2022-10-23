@@ -74,6 +74,19 @@
 5. Math.abs()
 	절대값 리턴
 
+***Integer***
+1. Integer.toString(int i)
+	int i 를 string으로 변환
+
+2. Integer.parseInt(String s)
+	String s를 int로 변환
+
+3. Integer.parseInt(String s, int radix)
+	String s를 radix진으로 변환
+
+4. Integer.toBinaryString(int i)
+	i를 2진 문자열로 변환
+
 ***Buffer***
 1. BufferedReader
 	import java.io.BufferedReader;
