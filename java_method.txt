@@ -74,6 +74,14 @@
 5. Math.abs()
 	절대값 리턴
 
+6. BigInteger
+	import java.util.BigInteger;
+	ex)	
+	BigInteger A = new BigInteger(st.nextToken());
+	BigInteger B = new BigInteger(st.nextToken());
+	A = A.add(B);
+	System.out,println(A.toString());
+
 ***Integer***
 1. Integer.toString(int i)
 	int i 를 string으로 변환
@@ -100,6 +108,7 @@
 	예외처리 : throws IOException
 
 	StringTokenizer st = new StringTokenizer(s);
+	s 뒤에 구분자를 넣어줄 수 있음
 	int a = Integer.parseInt(st.nextToken());
 	int b = Integer.parseInt(st.nextToken());
 
