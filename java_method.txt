@@ -69,9 +69,15 @@
 	sb.append("문자열");
 	sb.toString();
 
-***List***
+***Collectionst***
 1. list.toArray(arr)
 	list를 arr에 맞게 array로 변환
+
+2. Hashmap getOrDefault(Object key, V DefaultValue)
+	key : 값을 가져와야 하는 요소의 키
+	defaultvalue : 지정된 키로 매핑된 값이 없는 경우 반환되어야 하는 기본값
+	반환값 : 찾는 key가 존재하면 해당 key에 매핑되어 있는 값을 반환하고,
+		   그렇지 않으면 디폴트 값이 반환됩니다
 
 ***Math***
 1. Math.random()
